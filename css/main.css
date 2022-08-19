@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* padding-left: 22px; */
 }
 .container{
     width: 1300px;
@@ -15,19 +16,25 @@
 .form-section h1{
     text-align: center;
     margin: 0 0 20px;
+    padding-top: 20px;
     font-size: 24px;
 }
 .input{
     margin-bottom: 20px;
     position: relative;
 }
+.input .eeeee{
+    margin-left: 23px;
+}
 .inputlable{
     display: block;
     margin-bottom: 10px;
 }
 .form-section input{
-    width: 100%;
+    width: 90%;
     height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 0 15px;
     background-color: transparent;
     border: 2px solid #f0f0f0;
@@ -50,14 +57,16 @@
 .input .error small{
     visibility: hidden;
 }
-.button{
-    width: 100%;
+.btn{
+    width: 90%;
     height: 40px;
     line-height: 40px;
+    margin-left: 20px;
     background-color: #3498db;
     border: 1 px solid #3498db;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
     color: #fff;
     display: block;
     font-size: 16px;
